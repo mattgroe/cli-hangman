@@ -1,0 +1,25 @@
+{
+  "name": "cli-hangman",
+  "version": "1.0.0",
+  "description": "Node.js hangman game",
+  "main": "index.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "inquirer": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dward1502/cli-hangman.git"
+  },
+  "author": "Daniel Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dward1502/cli-hangman/issues"
+  },
+  "homepage": "https://github.com/dward1502/cli-hangman#readme"
+}
