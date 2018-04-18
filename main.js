@@ -62,10 +62,10 @@ var hangman = {
     //if they want to play starts new game.
     newGame: function () {
         if (this.guessesRemaining === 10) {
-            console.log("===============================================================================================================\n");
-            console.log("   Welcome to Surfing Hangman.... All I need are some tasty waves, a cool buzz, and I'm fine. (Jeff Spicoli)\n");
-            console.log("                                   Okay! Here we go!\n");
-            console.log('================================================================================================================');
+            console.log("==========================\n");
+            console.log("  Welcome to CLI-Hangman\n");
+            console.log("    Okay! Here we go!\n");
+            console.log('==========================');
             //generates random number based on the wordBank
             var randNum = Math.floor(Math.random() * this.wordBank.length);
             this.currentWord = new Word(this.wordBank[randNum]);
